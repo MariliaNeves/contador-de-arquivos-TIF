@@ -22,7 +22,7 @@ class CountTest {
 	
 	@Test
 	void testSaveListFileInTXT() {
-		String actual = Count.saveListFileInTXT("Um testo para testar...");
+		String actual = Count.saveListFileInTXT("Um texto para testar...");
 		File file = new File(actual);
 		assertTrue(file.exists());
 	}

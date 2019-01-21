@@ -161,7 +161,7 @@ public class Count {
 	
 	public static String saveListFileInTXT(String content) {
 		
-		String nameFile = "lista de arquivos no SRV do Detran.txt";
+		String nameFile = "lista de arquivos TIF.txt";
 		try (Writer writer = new BufferedWriter(new OutputStreamWriter(
 	              new FileOutputStream(nameFile), "utf-8"))) {
 		writer.write(content);
